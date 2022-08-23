@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center ; 
+    align-items: center;
+    height: 100vh;
+    background-color: peru;
+}
+
+#container{
+    display: grid;
+    grid-template: repeat(3, 100px)/repeat(3, 100px);
+    padding-bottom: 10px;
+}
+
+#container span{
+    border: 5px solid rgb(156, 151, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    width: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.mensaje{
+    text-align: center;
+    background-color: greenyellow;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+    box-sizing: border-box;
+    padding-bottom: 46px;
+    
+}
