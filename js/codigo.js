@@ -47,11 +47,12 @@ function winer(){
     if(checkStatus(userStatus)){
         p.style.cssText = 'display:block';
         p.innerHTML = `gano ${userStatus}`
+        
 
     }else{
         if(contador >= 9){
             p.style.cssText = 'display:block';
-            p.innerHTML = `gano ${userStatus}`
+            p.innerHTML = `Empate `
         }
     }
 }
